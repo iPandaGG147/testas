@@ -58,8 +58,7 @@ return(
                         to={`/editperson/${person.id}`}>Edit</Link>
 
                         <Button type="button" id="btnCancel" onClick={()=>deletePerson(person.id)}
-                        className="btn btn-primary btn-lg">Delete
-                        </Button>  
+                        className="btn btn-primary btn-lg">Delete</Button>  
                             </tr>
                         ))}
                 </tbody>

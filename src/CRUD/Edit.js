@@ -15,7 +15,7 @@ export default function EditPerson() {
         education: "",
         email: "",
         phoneNumber: "",
-        startedDate: "",
+        startedDate: ""
     });
 
     const { name, lastName, age, education, email, phoneNumber, startedDate } = person;
@@ -24,7 +24,7 @@ export default function EditPerson() {
         setPerson({ ...person, [e.target.name]: e.target.value });
     };
 
-    useEffect(() => {
+    useEffect(()=>{
         loadPerson();
     },[]);
 
