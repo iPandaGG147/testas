@@ -1,6 +1,10 @@
 
 Duomenu baze Postgres naudojama per PgAdmin
 
+Front End: Visual Studio
+Irasom i Terminal : npm install
+ir tuomet : npm start
+
 
 
 

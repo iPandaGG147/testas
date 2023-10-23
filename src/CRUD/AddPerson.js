@@ -40,7 +40,7 @@ function AddPerson(){
             <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow "><Form className="d-grid gap-3" >
                 <Form.Group className="mb-3" controlId="formName">
                     <Form.Control type="text" placeholder="Enter Name" value={name} required
-                                  onInputChange={(e) => setName(e.target.value)}>
+                                  onChange={(e) => setName(e.target.value)}>
                     </Form.Control>
                 </Form.Group>
 
